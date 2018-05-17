@@ -672,7 +672,10 @@
           '</span>'
           ) +
           '</button>' +
+          '<div class="wrap-dropdown-menu">'+
           '<div class="dropdown-menu ' + (version.major === '4' ? '' : classNames.SHOW) + '" role="combobox">' +
+          '<div class="arow-1"></div>' +
+          '<div class="arow-2"></div>' +          
           header +
           searchbox +
           actionsbox +
@@ -682,6 +685,7 @@
           '</div>' +
           donebutton +
           '</div>' +
+          '</div>' +          
           '</div>';
 
       return $(drop);
